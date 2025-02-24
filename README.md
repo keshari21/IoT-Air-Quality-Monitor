@@ -70,4 +70,4 @@ The user can monitor live air quality data through a web dashboard or mobile app
 •	Integration with IoT platforms like AWS IoT Core for advanced analytics.                                   
 
 **Output**                           
-![Image](https://github.com/user-attachments/assets/36df8f7a-6939-4597-94e9-6b5d076510f0)
+![Image](https://github.com/user-attachments/assets/7ad36ca2-d551-49fa-aa75-6eba6673e5f2)
