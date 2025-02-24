@@ -31,7 +31,7 @@ The IoT Air Quality Monitor is a smart environmental monitoring system designed 
 6.	Resistors & Jumper Wires – For necessary electrical connections.                                                    
 7.	Power Supply (5V) – To power the ESP8266 and sensors.                                               
 
-**Working Principle **                                         
+**Working Principle**                                                                           
 The IoT Air Quality Monitor operates by collecting environmental data through various sensors and transmitting it over Wi-Fi for remote monitoring. The MQ135 gas sensor detects the presence of harmful gases and sends analog signals to the ESP8266, which converts them into digital values. Similarly, the DHT11/DHT22 sensor measures temperature and humidity and transmits the data to the microcontroller.                                           
 The ESP8266 processes all collected data and:                                 
 1.	Displays real-time sensor values on an OLED screen (if included).                                     
@@ -39,7 +39,7 @@ The ESP8266 processes all collected data and:
 3.	Triggers an alert (buzzer notification or LED indicator) if air quality crosses unsafe levels.                                          
 The user can monitor live air quality data through a web dashboard or mobile application, making this system ideal for both personal and professional use.                             
 
-**Implementation Steps **                                         
+**Implementation Steps**                                                                      
 1. Circuit Design and Assembly                             
 •	Connect the MQ135 gas sensor to the ESP8266’s analog input (A0).                             
 •	Interface the DHT11/DHT22 sensor with a digital pin of the ESP8266.                                 
@@ -70,4 +70,4 @@ The user can monitor live air quality data through a web dashboard or mobile app
 •	Integration with IoT platforms like AWS IoT Core for advanced analytics.                                   
 
 **Output**                           
-
+![Image](https://github.com/user-attachments/assets/36df8f7a-6939-4597-94e9-6b5d076510f0)
